@@ -1,4 +1,4 @@
-# Universal Repository of Flagged Addresses
+# Universal Repository of Flagged IP Addresses
 <p align="center">
  <img src="/pics/URFA.png" />
 </p>
