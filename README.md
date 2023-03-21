@@ -5,11 +5,13 @@
 <table>
 <tr>
 <td>
+# Project Concept
+*Computer systems experience a ridiculous amount of attacks daily and yet we don't have a universal database of the attacks which is free and accessible for anyone to use.*
 
 ## What is this project?
-*This project is a dataset composed of actual network attacks. It is a data set that grows and is updated by the hour. It is a data set that can be used or contributed to that is free and flexible.*
+*This project is a dataset composed of actual network attacks. It is a dataset that grows and is updated automatically by the hour and can be freely used or contributed to.*
 
-# Project Goal
+## Project Goal
 This project's aim is to assist system administrators and developers who are interested in finding out more details about system attacks.
 
 - Where they come from?
@@ -20,16 +22,9 @@ This project's aim is to assist system administrators and developers who are int
 - How to share them for research.
 - How to predict when they will happen. 
 - How to use them to your advantage.
-- How to prevent them. 
+- How to prevent them.
+- How **WE** can work together to do something about them.
 
-**Project MOTO**
-*This project was created ***by*** cool people ***for*** cool people because it's ***not*** cool when people try to break into your system for no good reason. ***Not*** one iota!*
-
-## Project Concept
-*Computer systems experience a ridiculous amount of attacks daily and yet we don't have a universal repository of flagged ip addresses.. until now.*
-
-
-*I hope that this project inspires others to want to participate ,based on the idea that this collected information will help spawn a whole host of applications in the realm of cyber security making the Internet a better safer place with consequences enforced by anyone willing to contribute to weeding these attackers out.*
 
 ## Who is this project for ?
 >#### Collaborators
@@ -40,14 +35,22 @@ This project's aim is to assist system administrators and developers who are int
 >- That seasoned developer ready to take an idea to the next level, who knows python better than all those other guys.
 >
 >**Collaborator Incentive**
->- Upon contributing you will be given access to an API containing all of the contributed data.
+>- Upon contributing you will be given access to an API containing the dataset.
 >- The API can be used to build machine learning models.
 >- The API can be used in a variety of ways on different projects you can dream up.
 >- You will be directly contributing to the safety of the entire Internet.
 >
 >**Non Collaborators**
 >
->This repository is open for anyone to clone so you can still use the updated server logs for your own projects you just wont have access to the API.
+>This repository is open for anyone to clone so you can still use the updated dataset for your own projects you just wont have access to the API.
+
+**Project MOTO**
+
+*This project was created ***by*** cool people ***for*** cool people because it's ***not*** cool when people try to break into your system for no good reason. ***Not*** one iota!*
+
+**The heart behind this project**
+
+*I hope that this project inspires others to want to participate ,based on the idea that this collected information will help spawn a whole host of applications in the realm of cyber security making the Internet a better safer place with consequences enforced by anyone willing to contribute to weeding these attackers out.*
 
 -**Disclaimer**
 
@@ -110,9 +113,17 @@ This format is perfect for the setup I've already constructed. If you output thi
 
 *The included scripts in the repo take data in this format and then put it into a pandas dataframe and add two more columns. The data frame after processing ends up looking like the following:*
 
+</td>
+</tr>
+</table>
+
 |User_Name | IP_Addresses  |   Day   |   Month   |  D_of_M  |  Time_UTC  |  Year  |        LATLNG        |    Country   |
 | -------- |:-------------:|:-------:|:---------:|:--------:|:----------:|:------:|:--------------------:|:------------:|
 | wangyon  | 165.22.62.225 |  Fri    |    Mar    |   10     |  15:19:40  |  2023  | 1.292900, 103.854698 | SG, Singapore|
+
+<table>
+<tr>
+<td>
 
 *Note: Please create or modify the filter in the script as to exclude any of your servers personal information. In fact make sure that no details of your personal server are accidentally included. See the do_many.py script filter section for more info*
 
@@ -121,7 +132,7 @@ This format is perfect for the setup I've already constructed. If you output thi
 1. Your server is going to continue accruing more failed logins.
 2. Your server was doing this well before you ran the lastb command.
 
-**The idea is now you want to continue to add new entrys to your notty file**
+**The idea is now you want to continue to add new entry's to your nottys file**
 
 *We want to use as little of our machines processing power so we don't want to keep running the lastb command and getting its entire output we only want to do this once. With this in mind lets walk through how I personally accomplish this:*
 
@@ -174,17 +185,17 @@ $ cat progress
 
 Running the above command will serve to organize the bulk of the nottys file. You only need to do this once because the next cronjob you set up is going to do this once an hour but for much less entries and it is simply going to add them to the larger original file.
 
-*Keep in mind you already have one sudo cronjob running so you want to give that job a few mins to complete away from your next **non sudo cronjob** *
+*Keep in mind you already have one sudo cronjob running so you want to give that job a few mins to complete away from your next **non sudo** cronjob*
 
 ```
 $ crontab -e
 ```
 - 20 * * * * cd /home/your_name/repo_dir/; python do_many.py
 
+
 </td>
 </tr>
 </table>
-
 
 ## Use cases
 - Cyber Security
@@ -197,11 +208,11 @@ Want to contribute? Great!
 To fix a bug or enhance an existing module, follow these steps:
 
 - Fork the repo
-- Create a new branch (`git checkout -b improve-feature`)
+- Create a new branch (`git checkout -b added-features`)
 - Make the appropriate changes in the files
 - Add changes to reflect the changes made
-- Commit your changes (`git commit -am 'Improve feature'`)
-- Push to the branch (`git push origin improve-feature`)
+- Commit your changes (`git commit -am 'Added features'`)
+- Push to the branch (`git push origin added-features`)
 - Create a Pull Request 
 
 ### Bug / Feature Request
@@ -218,4 +229,6 @@ If you find a bug in this code please let me know.
 
 ## To-do
 - Create a CLI UI so collaborators can more easily run an analysis on the data
-- Even More
+- Create an insights section of this readme which displays some of the data visualization from the dataset
+- Create a section discussing sshkeys and how to use them for automating the collaborative process.
+- Create a section explaining how to automate git commits and pushes.
