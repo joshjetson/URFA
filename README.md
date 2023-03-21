@@ -44,7 +44,7 @@ This project's aim is to assist system administrators and developers who are int
 >
 >**Non Collaborators**
 >
->This repository is open for anyone to clone so you can still use the updated dataset for your own projects you just wont have access to the API.
+>This repository is open for anyone to clone so you can still use the updated dataset for your own projects you just wont have access to the API. Admittedly, you can just use the dataset here to create your own API but you will have to constantly clone the updated dataset hourly and then work the rest out yourself as well.
 
 **Project MOTO**
 
