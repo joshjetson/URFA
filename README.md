@@ -6,18 +6,34 @@
 <tr>
 <td>
 
-*This project's aim is to assist system administrators who are interested in finding out more details about the attackers on their servers and then also be able to do things about it in collaboration with a bunch of other people who are also doing things about it... yeah. This project was created ***by*** cool people ***for*** cool people because it's ***not*** cool when people try to break into your system for no good reason. ***Not*** one iota!*
+## What is this project?
+*This project is a dataset composed of actual network attacks. It is a data set that grows and is updated by the hour. It is a data set that can be used or contributed to that is free and flexible.*
 
-# Project Concept
+# Project Goal
+This project's aim is to assist system administrators and developers who are interested in finding out more details about system attacks.
+
+- Where they come from?
+- Who they come from?
+- Why there are so many?
+- How to store them.
+- How to access them.
+- How to share them for research.
+- How to predict when they will happen. 
+- How to use them to your advantage.
+- How to prevent them. 
+
+**Project MOTO**
+*This project was created ***by*** cool people ***for*** cool people because it's ***not*** cool when people try to break into your system for no good reason. ***Not*** one iota!*
+
+## Project Concept
 *Computer systems experience a ridiculous amount of attacks daily and yet we don't have a universal repository of flagged ip addresses.. until now.*
 
-I hope that this project inspires others to want to participate ,based on the idea that this collected information will help spawn a whole host of applications in the realm of cyber security making the Internet a better safer place with consequences enforced by anyone willing to contribute to weeding these attackers out.
-</td>
-</tr>
-</table>
+
+*I hope that this project inspires others to want to participate ,based on the idea that this collected information will help spawn a whole host of applications in the realm of cyber security making the Internet a better safer place with consequences enforced by anyone willing to contribute to weeding these attackers out.*
 
 ## Who is this project for ?
 >#### Collaborators
+>- Anyone on the internet who can work with datasets and wants to know more about network attacks and the attackers.
 >- Linux System admins, who know python.
 >- Anyone running Openssh, who knows python.
 >- The kid in the back looking for a cool project, who knows python.
@@ -36,6 +52,9 @@ I hope that this project inspires others to want to participate ,based on the id
 -**Disclaimer**
 
 *More then knowing python, so you can read the code and trust it, you need to have super user access to a system preferably **your** system. This project aims at the exact opposite of being malicious so please do not attempt to contribute to this project using someone else's system without their consent and full understanding of it. Keep in mind that none of the contributed material will, and should not, contain any personally specific information pertaining to your server. ie. Your usernames your ip address*
+</td>
+</tr>
+</table>
 
 ## Instructions
 #### Getting Started
