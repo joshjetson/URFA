@@ -235,6 +235,7 @@ $ crontab -e
 - Cyber Security
 - Personal Projects
 - Blockchain Technology
+- Data Science
 
 ### Development
 Want to contribute? Great!
