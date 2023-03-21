@@ -61,7 +61,39 @@ This project's aim is to assist system administrators and developers who are int
 </tr>
 </table>
 
-## Instructions
+## Data Visualizations
+
+#### An overview
+
+<p align="center">
+ <img src="/pics/URFAinfo.png" />
+</p>
+
+#### A tail end view of the dataset
+
+<p align="center">
+ <img src="/pics/URFAtail.png" />
+</p>
+
+#### Countries captured in the dataset, thus far..
+
+<p align="center">
+ <img src="/pics/URFAcountries.png" />
+</p>
+
+#### The percentage of a few countries captured in the dataset
+
+<p align="center">
+ <img src="/pics/URFApercentageCountries.png" />
+</p>
+
+#### A  small sample size of countries captured in the dataset in a pie chart
+
+<p align="center">
+ <img src="/pics/vis1.png" />
+</p>
+
+## Instructions on contributing
 #### Getting Started
 <table>
 <tr>
@@ -231,6 +263,6 @@ If you find a bug in this code please let me know.
 
 ## To-do
 - Create a CLI UI so collaborators can more easily run an analysis on the data
-- Create an insights section of this readme which displays some of the data visualization from the dataset
+- Create an insights section of this readme which discusses insights regarding an analysis of the dataset.
 - Create a section discussing sshkeys and how to use them for automating the collaborative process.
 - Create a section explaining how to automate git commits and pushes.
