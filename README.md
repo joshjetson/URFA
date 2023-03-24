@@ -99,6 +99,22 @@ This project's aim is to assist system administrators and developers who are int
 <tr>
 <td>
 
+#### Using ssh-honeypot
+
+There is a project on github which gives you your own ssh server
+without giving you your own ssh server?? Huh. It's a honeypot!
+You can use this honey pot to contribute to this project by simply
+contributing the honeypot log files and then ill do all the rest
+of the processing to get more data on the attacks and then merge it
+into the master repo. You could also do the processing with
+the provided script in this repo. Up tp you. Anyhow here is the link
+to the project so you can read all about it. Really Cool!
+
+>- https://github.com/droberson/ssh-honeypot
+
+
+#### My method
+
 - Install geoip
 
 *Debian Based*
